@@ -112,81 +112,80 @@ form button {
     border-radius: 5px;
 }
 
-/* Card Container */
+
 .row {
     display: flex;
-    justify-content: center; /* Mengatur card agar terpusat di tengah */
-    flex-wrap: wrap; /* Mengizinkan card untuk membungkus ke baris baru */
-}
+    justify-content: center; 
+    flex-wrap: wrap;
 
-/* Styling untuk Card */
+
 .card {
-    border: 1px solid #dee2e6; /* Border abu-abu untuk card */
-    border-radius: 8px; /* Sudut membulat untuk card */
-    margin: 15px; /* Margin untuk jarak antar card */
-    width: 300px; /* Lebar tetap untuk card */
-    transition: transform 0.2s, box-shadow 0.2s; /* Efek transisi saat hover */
-    background-image: #fff; /* Warna latar belakang putih untuk card */
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+    margin: 15px; 
+    width: 300px; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    background-image: #fff; 
 }
 
-/* Efek hover pada card */
+
 .card:hover {
-    transform: translateY(-5px); /* Mengangkat card saat hover */
-    box-shadow: 0 4px 20px rgba(, 0, 0, 0.1); /* Bayangan saat hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 20px rgba(, 0, 0, 0.1);
 }
 
-/* Styling untuk isi card */
+
 .card-body {
-    padding: 20px; /* Padding untuk isi card */
+    padding: 20px; 
 }
 
 .card-title {
-    font-size: 20px; /* Ukuran font untuk judul card */
-    margin-bottom: 15px; /* Jarak bawah dari judul */
-    color: #333; /* Warna teks judul */
+    font-size: 20px; 
+    margin-bottom: 15px; 
+    color: #333; 
 }
 
 .card-text {
-    font-size: 16px; /* Ukuran font untuk teks dalam card */
-    margin-bottom: 20px; /* Jarak bawah dari teks */
-    color: #666; /* Warna teks yang lebih lembut */
+    font-size: 16px; 
+    margin-bottom: 20px; 
+    color: #666; 
 }
 
-/* Styling untuk tombol di dalam card */
+
 .btn {
-    width: 100%; /* Lebar penuh untuk tombol */
-    padding: 10px; /* Padding untuk tombol */
-    border-radius: 5px; /* Sudut membulat untuk tombol */
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 5px; 
 }
 
-/* Warna untuk tombol berdasarkan kategori membership */
+
 .btn-outline-primary {
-    border: 2px solid #007bff; /* Border biru untuk tombol */
-    background: transparent; /* Latar belakang transparan */
-    color: #007bff; /* Teks biru */
+    border: 2px solid #007bff; 
+    background: transparent;
+    color: #007bff; 
 }
 
 .btn-outline-secondary {
-    border: 2px solid #6c757d; /* Border abu-abu untuk tombol */
-    background-color: transparent; /* Latar belakang transparan */
-    color: #6c757d; /* Teks abu-abu */
+    border: 2px solid #6c757d; 
+    background-color: transparent; 
+    color: #6c757d; 
 }
 
 .btn-outline-warning {
-    border: 2px solid #ffc107; /* Border kuning untuk tombol */
-    background-color: transparent; /* Latar belakang transparan */
-    color: #ffc107; /* Teks kuning */
+    border: 2px solid #ffc107; 
+    background-color: transparent; 
+    color: #ffc107; 
 }
 
-/* Efek hover untuk tombol */
+
 .btn:hover {
-    background-color: rgba(0, 123, 255, 0.1); /* Efek latar belakang saat hover */
+    background-color: rgba(0, 123, 255, 0.1); 
 }
 
-/* Responsive Design untuk Card */
+
 @media (max-width: 768px) {
     .card {
-        width: 90%; /* Lebar lebih kecil untuk card di perangkat kecil */
+        width: 90%; 
     }
 }
 
