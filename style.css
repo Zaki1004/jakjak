@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    background-color: #333;
+    background : url('back foto.jpg');
+    background-size: 100%;
+    color: #fff;
+    padding-top: 80%;
+    min-height: 70px;
+    border-bottom: #77b5fe px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.main-section {
+    padding: 20px;
+    background: #fff;
+    margin: 40px 0;
+    border-radius: 100px;
+    box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+}
+
+.main-section p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form input, form select {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Card Container */
+.row {
+    display: flex;
+    justify-content: center; /* Mengatur card agar terpusat di tengah */
+    flex-wrap: wrap; /* Mengizinkan card untuk membungkus ke baris baru */
+}
+
+/* Styling untuk Card */
+.card {
+    border: 1px solid #dee2e6; /* Border abu-abu untuk card */
+    border-radius: 8px; /* Sudut membulat untuk card */
+    margin: 15px; /* Margin untuk jarak antar card */
+    width: 300px; /* Lebar tetap untuk card */
+    transition: transform 0.2s, box-shadow 0.2s; /* Efek transisi saat hover */
+    background-image: #fff; /* Warna latar belakang putih untuk card */
+}
+
+/* Efek hover pada card */
+.card:hover {
+    transform: translateY(-5px); /* Mengangkat card saat hover */
+    box-shadow: 0 4px 20px rgba(, 0, 0, 0.1); /* Bayangan saat hover */
+}
+
+/* Styling untuk isi card */
+.card-body {
+    padding: 20px; /* Padding untuk isi card */
+}
+
+.card-title {
+    font-size: 20px; /* Ukuran font untuk judul card */
+    margin-bottom: 15px; /* Jarak bawah dari judul */
+    color: #333; /* Warna teks judul */
+}
+
+.card-text {
+    font-size: 16px; /* Ukuran font untuk teks dalam card */
+    margin-bottom: 20px; /* Jarak bawah dari teks */
+    color: #666; /* Warna teks yang lebih lembut */
+}
+
+/* Styling untuk tombol di dalam card */
+.btn {
+    width: 100%; /* Lebar penuh untuk tombol */
+    padding: 10px; /* Padding untuk tombol */
+    border-radius: 5px; /* Sudut membulat untuk tombol */
+}
+
+/* Warna untuk tombol berdasarkan kategori membership */
+.btn-outline-primary {
+    border: 2px solid #007bff; /* Border biru untuk tombol */
+    background: transparent; /* Latar belakang transparan */
+    color: #007bff; /* Teks biru */
+}
+
+.btn-outline-secondary {
+    border: 2px solid #6c757d; /* Border abu-abu untuk tombol */
+    background-color: transparent; /* Latar belakang transparan */
+    color: #6c757d; /* Teks abu-abu */
+}
+
+.btn-outline-warning {
+    border: 2px solid #ffc107; /* Border kuning untuk tombol */
+    background-color: transparent; /* Latar belakang transparan */
+    color: #ffc107; /* Teks kuning */
+}
+
+/* Efek hover untuk tombol */
+.btn:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Efek latar belakang saat hover */
+}
+
+/* Responsive Design untuk Card */
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Lebar lebih kecil untuk card di perangkat kecil */
+    }
+}
+
+
+form button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: none;
+    width: 100%;
+    bottom: 0;
+}
